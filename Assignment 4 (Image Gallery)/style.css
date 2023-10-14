@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Old+Permic&family=Noto+Sans+Osmanya&family=Oswald:wght@700&family=Ubuntu:wght@300&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans Old Permic', sans-serif;
+    
+}
+.gallery-container{
+    height: 40vh;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery-container img{ 
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    border-radius: 20px;
+}
+
+h1
+    {
+        text-align: center;
+        font-size: 3.66rem;
+        font-weight: 600;
+    }
+
+p {
+    text-align: center;
+    text-decoration: underline;
+}
+.input-container {
+    display: flex;
+    gap: 10px;
+    width: 800px;    
+    margin-top: 20px;
+    margin-bottom:20px;    
+}
+
+input[type="text"] {
+   
+    font-size: 20px;
+    width: 80%;
+    height: 50px;
+    outline: none;
+    border: 1px solid rgb(20, 5, 5);
+    border-radius: 20px;
+    padding-left: 25px;
+}
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 150px;
+}
+
+button:hover {
+    background-color: #0b14c4;
+}
+.gallery-container .content{
+    color: #fff;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.image-gallery {
+    margin: 10px 20px 0px 30px;
+    height: auto;
+    border: none;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow:black;
+    display: flex;                 
+    flex-wrap: wrap;
+    gap: 5px;
+    object-fit:none;
+}
+
+.img-container {
+    box-sizing: border-box;
+    box-shadow: none;
+    margin-left: 60px;
+    margin-right:60px;
+    border: 1px solid #ddd;
+    display:contents;
+    list-style: none;
+    border-image: auto;
+    
+}
+.img-container img {
+    max-width: 12%;
+    border: #fff;
+    border-radius: 20px;
+    display:block;
+}
+
+
