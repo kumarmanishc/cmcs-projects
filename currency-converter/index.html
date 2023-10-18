@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Currency Converter</title>
+</head>
+<body>
+    <h1>Currency Converter</h1>
+    
+    <form id="currencyConverterForm">
+        <label for="amount">Amount:</label>
+        <input type="number" id="amount" placeholder="Enter amount" required><br>
+
+        <label for="sourceCurrency">Source Currency:</label>
+        <select id="sourceCurrency">
+        
+            <option value="USD">USD (United States Dollar)</option>
+            <option value="EUR">EUR (Euro)</option>
+            <option value="JPY">JPY (Japanese Yen)</option>
+            
+        </select><br>
+
+        <label for="targetCurrency">Target Currency:</label>
+        <select id="targetCurrency">
+        
+            <option value="USD">USD (United States Dollar)</option>
+            <option value="EUR">EUR (Euro)</option>
+            <option value="JPY">JPY (Japanese Yen)</option>
+        
+        </select><br>
+
+        <button type="button" id="convertButton">Convert</button>
+    </form>
+
+    <p>Converted Amount: <span id="convertedAmount"></span></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
